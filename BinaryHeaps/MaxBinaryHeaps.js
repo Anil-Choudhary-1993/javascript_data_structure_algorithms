@@ -61,7 +61,7 @@ class MaxBinaryHeaps {
                 const temp = this.heap[parentIndex];
                 this.heap[parentIndex] =  this.heap[maxIndex]
                 this.heap[maxIndex] =  temp;
-                parentIndex = childIndex;
+                parentIndex = maxIndex;
                 continue;
             }
             break;
