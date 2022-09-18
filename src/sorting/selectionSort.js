@@ -1,17 +1,17 @@
 function sort(arr) {
-  let minIndex;
-  for (let i = 0; i < arr.length; i++) {
-    minIndex = i;
-    for (let j = i + 1; j < arr.length; j++) {
-      if (arr[minIndex] > arr[j]) {
-        minIndex = j;
-      }
+    let minIndex;
+    for (let i = 0; i < arr.length; i++) {
+        minIndex = i;
+        for (let j = i + 1; j < arr.length; j++) {
+            if (arr[minIndex] > arr[j]) {
+                minIndex = j;
+            }
+        }
+        if (minIndex !== i) {
+            [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+        }
     }
-    if (minIndex !== i) {
-      [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
-    }
-  }
-  return arr;
+    return arr;
 }
 
 console.log(sort([1, 34, 12, 67, 34, 2, 3]));

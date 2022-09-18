@@ -1,20 +1,19 @@
 {
-  "dependencies": {
-    "eslint": "^8.23.1",
-    "eslint-config-prettier": "^8.5.0",
-    "prettier": "^2.7.1"
-  },
-  "scripts": {
-    "format:check": 
-    "prettier --check .",
-    "format:write": "prettier --write .",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint --fix ."
-  },
-  "name": "javascript_data_structure_algorithms",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Anil-Choudhary-1993/javascript_data_structure_algorithms.git",
-  "author": "achoudhary <choudharya335@gmail.com>",
-  "license": "MIT"
+    "dependencies": {
+        "eslint": "^8.23.1",
+        "eslint-config-prettier": "^8.5.0",
+        "prettier": "^2.7.1"
+    },
+    "scripts": {
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "name": "javascript_data_structure_algorithms",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Anil-Choudhary-1993/javascript_data_structure_algorithms.git",
+    "author": "achoudhary <choudharya335@gmail.com>",
+    "license": "MIT"
 }
