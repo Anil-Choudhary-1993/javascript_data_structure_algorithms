@@ -28,7 +28,7 @@ class Graph {
     );
   }
 
-  depthFirstSearachRecursive(vertex) {
+  depthFirstSearachRecursive() {
     const result = [];
     const visited = {};
     const adjacencyList = this.adjacencyList;
